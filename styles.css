@@ -1,16 +1,15 @@
 html {
   box-sizing: border-box;
+  font-size: 10px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-html {
-  font-size: 10px;
-  background: #E91E63;
 }
 
 canvas {
@@ -24,9 +23,6 @@ canvas {
   margin: 2rem auto;
   border-radius: 2px;
 }
-
-
-/*clearfix*/
 
 .photo-container {
   width: 100%;
@@ -64,11 +60,6 @@ button {
   margin: .5rem auto;
   display: block;
 }
-
-
-/*
-Strip!
-*/
 
 .strip {
   padding: 0 2rem;
